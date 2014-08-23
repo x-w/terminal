@@ -211,3 +211,51 @@ html, body {
 .terminal-white .prompt {
 	color: #02f;
 }
+
+/* Console theme */
+
+.terminal-console {
+	color: white;
+	font-family: Inconsolata, monospace;
+}
+
+.terminal-console a {
+	color: #fff;
+}
+
+.terminal-console a.external {
+	background: dataurl("external.png") no-repeat scroll right center transparent;
+	padding-right: 13px;
+	outline: none;
+}
+
+.terminal-console .background {
+	background: rgba(0, 0, 0, 0.65);
+	height: 100%;
+	left: 0;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.terminal-console .background .interlace {
+	display: none;
+}
+
+.terminal-console .container {
+	text-shadow: none;
+}
+
+.terminal-console .container output pre {
+	color: white;
+	font-family: Inconsolata, monospace;
+}
+
+.terminal-console .prompt {
+	color: #fc0;
+}
+
+.terminal-console table.input-line {
+	color: white;
+}
